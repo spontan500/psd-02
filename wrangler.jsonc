@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "psd-02",
+  "compatibility_date": "2026-05-13",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "PSD02"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}

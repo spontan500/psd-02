@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>IES NG — Anrufer/Abholer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div id="root"></div>
+
+<template id="__bundler_thumbnail" data-bg-color="#F9FAFC">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#F9FAFC"/>
+    <rect x="120" y="160" width="960" height="540" rx="20" fill="#FFFFFF" stroke="#CEDAE5" stroke-width="2"/>
+    <rect x="160" y="200" width="280" height="48" rx="8" fill="#F2F4F7"/>
+    <rect x="460" y="200" width="580" height="48" rx="8" fill="#F2F4F7"/>
+    <rect x="160" y="280" width="420" height="120" rx="10" fill="#F2F4F7"/>
+    <rect x="620" y="280" width="420" height="120" rx="10" fill="#F2F4F7"/>
+    <rect x="160" y="430" width="880" height="220" rx="10" fill="#F2F4F7"/>
+    <g transform="translate(540, 320)">
+      <rect width="120" height="120" rx="16" fill="#1C79E5"/>
+      <path d="M60 38v44M38 60h44" stroke="white" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <text x="600" y="120" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="28" fill="#28313E">IES NG</text>
+  </svg>
+</template>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<script src="tweaks-panel.jsx" type="text/babel"></script>
+<script src="src/icons.jsx" type="text/babel"></script>
+<script src="src/data.jsx" type="text/babel"></script>
+<script src="src/ui.jsx" type="text/babel"></script>
+<script src="src/shell.jsx" type="text/babel"></script>
+<script src="src/dashboard.jsx" type="text/babel"></script>
+<script src="src/erfassen.jsx" type="text/babel"></script>
+<script src="src/listen.jsx" type="text/babel"></script>
+<script src="src/dossier.jsx" type="text/babel"></script>
+<script src="src/app.jsx" type="text/babel"></script>
+</body>
+</html>
